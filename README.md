@@ -1,5 +1,15 @@
+<p align="center">
+<img src="https://prerau.bwh.harvard.edu/images/GIthubProfilePic.png" width="250" />
+</p>
+
 # PrerauLab
 Summary of the What and Where of the Prerau Lab Code 
+
+## Table of Contents
+* [Code](#code)
+  * [Toolboxes](#toolboxes)
+  * [Paper Code](#paper-specific-code)
+* [Tools](#tools)
 
 <h1><a id="Code"></a>Code</h1>
 <h2><a id="Toolboxes"></a>Toolboxes</h2>
