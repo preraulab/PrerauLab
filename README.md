@@ -28,6 +28,8 @@ Herein, we provide code to walk through the framework, from constructing model i
 <a href="https://github.com/preraulab/Apnea_dynamics_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
 <br/><br/>
 <h2><a id="PaperCode"></a>Paper Specific Code</h2>
+<h3><a href="https://github.com/preraulab/watershed_TFpeaks_toolbox/tree/transient_oscillation_paper" target="_blank" rel="noopener">Transient Oscillation Dynamics During Sleep Provide a Robust Basis for Electroencephalographic Phenotyping and Biomarker Identification</a></h3>
+<em>Patrick A Stokes, Preetish Rath, Thomas Possidente, Mingjian He, Shaun Purcell, Dara S Manoach, Robert Stickgold, Michael J Prerau, Transient Oscillation Dynamics During Sleep Provide a Robust Basis for Electroencephalographic Phenotyping and Biomarker Identification, Sleep, 2022;, zsac223, https://doi.org/10.1093/sleep/zsac223</em>
 <h3><a href="https://github.com/preraulab/TF_sigma_peaks_SLEEP2021" target="_blank" rel="noopener">Sleep spindles comprise a subset of a broader class of electroencephalogram events</a></h3>
 <em>Tanya Dimitrov, Mingjian He, Robert Stickgold, Michael J Prerau, Sleep spindles comprise a subset of a broader class of electroencephalogram events, Sleep, 2021;, zsab099, https://doi.org/10.1093/sleep/zsab099</em>
 <h3><a href="https://github.com/preraulab/IEEE_peak_tracking_paper" target="_blank" rel="noopener">Estimation of time-varying spectral peaks and decomposition of EEG spectrograms</a></h3>
