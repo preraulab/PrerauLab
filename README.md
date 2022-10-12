@@ -12,7 +12,7 @@
 <h2><a id="Toolboxes"></a>Toolboxes</h2>
 <h3>Transient Oscillation Dynamics Toolbox</h3>
 <p align="center">
-<img src="https://prerau.bwh.harvard.edu/transient-oscillation-dynamics/" width="650" />
+<img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/TF-peak-Flow-Chart_small.png" width="650" />
 </p>
 
 We have developed a new approach to creating individualized 
@@ -35,7 +35,7 @@ the extracted TF-peak data.
 <br/><br/>
 <h3>Sleep Apnea Dynamics</h3>
 <p align="center">
-<img src="https://prerau.bwh.harvard.edu/transient-oscillations-dynamics/"  />
+<img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/OSA_dynamics_prerau_web.png" width=700 />
 </p>
 
 Obstructive sleep apnea (OSA), in which breathing is reduced or 
