@@ -10,18 +10,51 @@
 
 <h1><a id="Code"></a>Code</h1>
 <h2><a id="Toolboxes"></a>Toolboxes</h2>
-<h3>Watershed TF-Peaks &amp; SO-Power and Phase Histograms</h3>
-This repository contains code to detect time-frequency peaks (TF-peaks) in a spectrogram of EEG data using the watershed image segmentation algorithm. TF-peaks represent transient oscillatory neural activity at specific frequencies with sleep spindles (a key neural biomarker) comprising a subset of TF-peaks. The watershed method treats the spectrogram image as a topography and identifies the catchment basins (troughs), into which water falling on the terrain would collect, thus identifying local maxima. To reduce over-segmentation, neighboring regions are merged based on a novel merge rule designed to form complete, distinct TF-peaks in the spectrogram topography.
-<br/><br/>
-This repository also contains code to create slow-oscillation power (SO-power) and phase (SO-phase) histograms from the extracted TF-peak data. These histograms characterize the distribution of TF-peak rate (density) as function of oscillation frequency and SO-power or SO-phase. This creates a comprehensive representation of transient oscillation dynamics at different time scales, providing a highly informative new visualization technique and powerful basis for EEG phenotyping and biomarker identification in pathological states.
+<h3>Transient Oscillation Dynamics Toolbox</h3>
+<p align="center">
+<img src="https://prerau.bwh.harvard.edu/transient-oscillation-dynamics/" width="650" />
+</p>
+
+We have developed a new approach to creating individualized 
+electroencephalogram (EEG) fingerprints of brain activity during sleep, 
+which can be used to identify biomarkers of neurological health and 
+disease. We first identify tens of thousands of short, spindle-like EEG 
+waveforms called time-frequency peaks (TF-peaks) across a night of 
+sleep. Then, we create visual summaries of brain state by characterizing
+ the activity of TF-peaks as a function of sleep depth and also cortical
+ timing, called SO-power and SO-phase histograms. These summaries, like 
+fingerprints, appear to be unique to individuals yet consistent night to
+ night, providing a highly informative new visualization technique and 
+powerful basis for understanding neurological health and disease.
+
+We have developed an open source toolbox and tutorial to create 
+slow-oscillation power (SO-power) and phase (SO-phase) histograms from 
+the extracted TF-peak data.
 <br/><br/>
 <a href="https://github.com/preraulab/watershed_TFpeaks_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
 <br/><br/>
 <h3>Sleep Apnea Dynamics</h3>
-Obstructive sleep apnea (OSA), in which breathing is reduced or ceased during sleep, affects at least 10% of the population and is associated with numerous comorbidities. Current clinical diagnostic approaches characterize severity and treatment eligibility using the average respiratory event rate over total sleep time (apnea hypopnea index, or AHI). This approach, however, does not characterize the time-varying and dynamic properties of respiratory events that can change as a function of body position, sleep stage, and previous respiratory event activity. Here, we develop a statistical model framework based on point process theory that characterizes the relative influences of all these factors on the moment-to-moment rate of event occurrence.
-<br/><br/>
-Herein, we provide code to walk through the framework, from constructing model input to model fitting, as well as the code to visualize the model.
-<br/><br/>
+<p align="center">
+<img src="https://prerau.bwh.harvard.edu/transient-oscillations-dynamics/"  />
+</p>
+
+Obstructive sleep apnea (OSA), in which breathing is reduced or 
+ceased during sleep, affects at least 10% of the population and is 
+associated with numerous comorbidities. Current clinical diagnostic 
+approaches characterize severity and treatment eligibility using the 
+average respiratory event rate over total sleep time (apnea hypopnea 
+index, or AHI). This approach, however, does not characterize the 
+time-varying and dynamic properties of respiratory events that can 
+change as a function of body position, sleep stage, and previous 
+respiratory event activity. Here, we develop a statistical model 
+framework based on point process theory that characterizes the relative 
+influences of all these factors on the moment-to-moment rate of event 
+occurrence.
+
+We provide a code toolbox and tutorial to walk through the framework,
+ from constructing model input to model fitting, as well as the code to 
+visualize the model.
+
 <a href="https://github.com/preraulab/Apnea_dynamics_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
 <br/><br/>
 <h2><a id="PaperCode"></a>Paper Specific Code</h2>
