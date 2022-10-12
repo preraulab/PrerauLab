@@ -2,9 +2,6 @@
 <img src="https://prerau.bwh.harvard.edu/images/github-splash.png" width="650" />
 </p>
 
-# PrerauLab
-Summary of the What and Where of the Prerau Lab Code 
-
 ## Table of Contents
 * [Code](#code)
   * [Toolboxes](#toolboxes)
