@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://prerau.bwh.harvard.edu/images/github-splash.png" width="350" />
+<img src="https://prerau.bwh.harvard.edu/images/github-splash.png" width="650" />
 </p>
 
 # PrerauLab
