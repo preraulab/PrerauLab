@@ -5,12 +5,18 @@
 ## Table of Contents
 * [Code](#code)
   * [Toolboxes](#toolboxes)
+    * [Multitaper Spectral Analysis](#multitaper-spectral-analysis)
+    * [Transient Oscillation Dynamics Toolbox](#transient-oscillation-dynamics-toolbox)
+    * [Sleep Apnea Dynamics](#sleep-apnea-dynamics)
   * [Paper Code](#paper-specific-code)
 * [Tools](#tools)
+  * [Estimating AHI Uncertainty](#estimating-ahi-uncertainty)
+  * [EDF De-Identification Tool](#edf-de-identification-tool)
 
-<h1><a id="Code"></a>Code</h1>
-<h2><a id="Toolboxes"></a>Toolboxes</h2>
-<h3>Transient Oscillation Dynamics Toolbox</h3>
+# Code
+## Toolboxes
+### Multitaper Spectral Analysis
+### Transient Oscillation Dynamics Toolbox
 <p align="center">
 <img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/TF-peak-Flow-Chart_small.png" width="650" />
 </p>
@@ -33,7 +39,7 @@ the extracted TF-peak data.
 <br/><br/>
 <a href="https://github.com/preraulab/watershed_TFpeaks_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
 <br/><br/>
-<h3>Sleep Apnea Dynamics</h3>
+### Sleep Apnea Dynamics
 <p align="center">
 <img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/OSA_dynamics_prerau_web.png" width=700 />
 </p>
@@ -57,7 +63,7 @@ visualize the model.
 
 <a href="https://github.com/preraulab/Apnea_dynamics_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
 <br/><br/>
-<h2><a id="PaperCode"></a>Paper Specific Code</h2>
+## Paper Specific Code
 <h3><a href="https://github.com/preraulab/watershed_TFpeaks_toolbox/tree/transient_oscillation_paper" target="_blank" rel="noopener">Transient Oscillation Dynamics During Sleep Provide a Robust Basis for Electroencephalographic Phenotyping and Biomarker Identification</a></h3>
 <em>Patrick A Stokes, Preetish Rath, Thomas Possidente, Mingjian He, Shaun Purcell, Dara S Manoach, Robert Stickgold, Michael J Prerau, Transient Oscillation Dynamics During Sleep Provide a Robust Basis for Electroencephalographic Phenotyping and Biomarker Identification, Sleep, 2022;, zsac223, https://doi.org/10.1093/sleep/zsac223</em>
 <h3><a href="https://github.com/preraulab/TF_sigma_peaks_SLEEP2021" target="_blank" rel="noopener">Sleep spindles comprise a subset of a broader class of electroencephalogram events</a></h3>
@@ -66,15 +72,15 @@ visualize the model.
 <em>Stokes PA, Prerau MJ. Estimation of Time-Varying Spectral Peaks and Decomposition of EEG Spectrograms. IEEE Access. 2020;8:218257-218278. doi: 10.1109/access.2020.3042737. Epub 2020 Dec 4. PMID: 33816040; PMCID: PMC8015841.</em>
 
 <br/><br/>
-<h1><a id="Tools"></a>Tools</h1>
-<h2>Estimating AHI Uncertainty</h2>
+# Tools
+## Estimating AHI Uncertainty
 Currently, the AHI (apnea-hypopnea index: average number of nightly apnea-related breathing events per hour) is treated as a single number that definitively describes the patient’s condition. However, differences in sleep quality across nights, changes in sleep and breathing patterns within a single night, and variability from the limited amount of data collected in a single sleep study can potentially cause a great deal of variability associated with this measurement. Slight alteration in AHI value could mean that an AHI will be on one side of the threshold in one sleep study and the other side of the threshold on a subsequent sleep study, which can be the difference between eligibility and denial of treatment. It is therefore important to understand the uncertainty of the AHI statistic to determine the degree to which it is possible to be confidence in a given diagnosis.
 <br/><br/>
 To address these problems, we have developed two methods of estimating a confidence interval on the AHI based on what type of data are available.
 <br/><br/>
 <a href="https://prerau.bwh.harvard.edu/ahi/" target="_blank" rel="noopener">Click here to use this tool.</a>
 <br/><br/>
-<h2>EDF De-Identification Tool</h2>
+## EDF De-Identification Tool
 European Data Format (EDF) is one of the primary ways polysomnography and EEG data are stored. De-identification of EDF files is a necessary step for safe sharing of data, removing any identifying information from the file headers. Often EDF de-identification tools are part of some larger toolbox or software package, making distribution to clinical sites and personnel more difficult.
 <br/><br/>
 Here we provide standalone GUI-based programs for PC, Mac, and Linux as well as functional source code in MATLAB and python to facilitate de-identification of EDF files.
