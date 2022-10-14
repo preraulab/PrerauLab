@@ -67,7 +67,7 @@ visualize the model.
 
 ### Modeling the Sleep Onset Process
 <p align="center">
-<img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/SOP.png" width=800 height=400 />
+<img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/SOP.png" width=700 />
 </p>
 
 How can we tell when someone has fallen asleep? Understanding the way we fall asleep is an important problem in sleep medicine, since sleep disorders can disrupt the process of falling asleep. In the case of insomnia, subjects may fall asleep too slowly, whereas during sleep deprivation or narcolepsy, subjects fall asleep too quickly. Current methods for tracking the wake/sleep transition are time-consuming, subjective, and simplify the sleep onset process in a way that severely limits the accuracy, power, and scope of any resulting clinical metrics. We have developed a new physiologically principled method that dynamically combines information from brainwaves, muscle activity, and a novel minimally-disruptive behavioral task, to automatically create a continuous dynamic characterization of a person’s state of wakefulness.
