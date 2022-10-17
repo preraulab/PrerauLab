@@ -27,7 +27,7 @@ We have created toolboxes in MATLAB, python, and R for computing multitaper spec
 <br/><br/>
 <a href="https://github.com/preraulab/multitaper_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
 
-### Transient Oscillation Dynamics Toolbox
+### Transient Oscillation Dynamics (TOD) Toolbox
 <p align="center">
 <img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/TF-peak-Flow-Chart_small.png" width="650" />
 </p>
@@ -48,7 +48,7 @@ We have developed an open source toolbox and tutorial to create
 slow-oscillation power (SO-power) and phase (SO-phase) histograms from 
 the extracted TF-peak data.
 <br/><br/>
-<a href="https://github.com/preraulab/watershed_TFpeaks_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
+<a href="https://github.com/preraulab/Transient_Oscillation_Dynamics_Toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
 <br/><br/>
 ### Sleep Apnea Dynamics
 <p align="center">
