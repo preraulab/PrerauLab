@@ -17,6 +17,16 @@
 # Code
 ## Toolboxes
 ### Multitaper Spectral Analysis
+<p align="center">
+<img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/mts_example.png" width="650" />
+</p>
+
+A powerful tool for analyzing sleep EEG oscillatory structure has been spectral analysis, a quantitative approach for describing a waveform signal in terms of its components at different frequencies. A powerful form of  spectral estimation is the multitaper method, which provides a high-resolution, low-noise, time-frequency representation of the sleep EEG.
+
+We have created toolboxes in MATLAB, python, and R for computing multitaper spectrograms. 
+<br/><br/>
+<a href="https://github.com/preraulab/multitaper_toolbox" target="_blank" rel="noopener">Click here to view the toolbox code repository on Github</a>
+
 ### Transient Oscillation Dynamics Toolbox
 <p align="center">
 <img src="https://prerau.bwh.harvard.edu/wp-content/uploads/2022/10/TF-peak-Flow-Chart_small.png" width="650" />
