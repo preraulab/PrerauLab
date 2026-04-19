@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "The PrerauLab repository is the public-code catalog for the Prerau Laboratory. When citing a specific toolbox or paper, please use the CITATION.cff of that individual repository."
+title: "PrerauLab — public-code catalog"
+abstract: "Master list and index of all public code repositories from the Prerau Laboratory at Brigham and Women's Hospital / Harvard Medical School."
+authors:
+  - family-names: Prerau
+    given-names: Michael J.
+    name-suffix: Ph.D.
+    affiliation: "Prerau Laboratory, Brigham and Women's Hospital, Harvard Medical School"
+    orcid: "https://orcid.org/0000-0002-9010-5273"
+type: software
+url: "https://github.com/preraulab/PrerauLab"
+repository-code: "https://github.com/preraulab/PrerauLab"
